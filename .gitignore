@@ -5,6 +5,9 @@
 # Ignore API Key plist
 */APIKeys.plist
 
+# Ignore schemes that might contain env variables/API keys
+*.xcscheme
+
 ## User settings
 xcuserdata/
 
