@@ -15,7 +15,7 @@ enum BuildConfiguration {
 
 struct AppConfig {
     // Server URLs for different environments
-    static let productionServerURL = "https://lukai-server-m174aizrq-asolukaemeribes-projects.vercel.app"
+    static let productionServerURL = "https://lukai-server.vercel.app"
     static let developmentServerURL = "http://localhost:3000/api/chat"
     
     static var shouldUseProxy: Bool {
